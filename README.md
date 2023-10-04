@@ -1,7 +1,7 @@
 # projeto-Tela_De_Login
  Tela de login, responsível e adaptável a telas menores
 
-![preview](projeto/assets/img/PreviewG.png) ![preview](projeto/assets/img/previewG.png)
+![preview](projeto/assets/img/PreviewG.png) ![preview](projeto/assets/img/previewP.png)
 
 
 > Estudos pessoais
