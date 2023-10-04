@@ -1,0 +1,34 @@
+@media screen and (max-width: 850px) {
+    .menu-login{
+        flex-direction: column;
+    }
+
+    .esquerda-login{
+        width: 100%;
+        height: 35%;
+
+        margin-bottom: 30px;
+    }
+
+    .esquerda-login > img{
+        width: 40%;
+    }
+
+    .direita-login{
+        width: 100%;
+        height: 50%;
+    }
+
+    .cadastro{
+        width: 85%;
+        padding-bottom: 10px;
+    }
+
+    
+}
+
+@media screen and (max-width: 680px) {
+    .esquerda-login > img{
+        width: 50%;
+    }
+}

@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+.menu-login{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #201b2c;
+}
+
+.esquerda-login{
+    width: 50vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.esquerda-login > h1, h2{
+    color: #77ffc0;
+}
+
+
+.esquerda-login > img{
+    width: 35vw;
+   
+}
+
+.direita-login{
+    width: 55vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastro{
+    width: 65%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 30px 35px;
+    background-color: #2f2841;
+
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.cadastro > h1{
+    color: #00ff88;
+    font-weight: bold;
+}
+
+.cadastro > form{
+    width: 100%;
+}
+
+
+.campos-dados{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.campos-dados > input{  /*Estilização dos campos para entrada de dados*/
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 10px 40px #00000056;
+    font-size: 12pt;
+    
+    background: #514869;
+    color: #f0ffffde;
+}
+
+.campos-dados > label{
+    color: #f0ffffde;
+    
+    margin-bottom: 10px;
+}
+
+.campos-dados > input::placeholder{
+    color: #f0ffffde;
+}
+
+.cadastro > form > input{ /*Estilização do botão*/
+    display: block;
+    width: 100%;
+
+    padding: 16px 0px;
+    margin: 25px auto 15px auto;
+
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 7px 30px #00ff802a;
+
+    color: #2b134b;
+    background-color: #00ff88;
+    font-weight: 800;
+    letter-spacing: 2px; /*Espacamento entre as letra*/
+
+    cursor: pointer;
+}
